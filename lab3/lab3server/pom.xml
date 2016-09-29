@@ -6,7 +6,7 @@
 	<groupId>com.lab3</groupId>
 	<artifactId>lab-3-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>lab-3-server</name>
 	<description>Lab Spring Cloud Config Server</description>
