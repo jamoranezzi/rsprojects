@@ -6,7 +6,7 @@ spring:
         git:
           uri: https://github.com/jamoranezzi/rsprojects
           searchPaths: ConfigData
-        # /home/amorales/repositorio  -- para repositorios locales.
+        # /home/amorales/IdeaProjects/CursoSpringCloud/ -- para repositorios locales.
         # "native" is used when the native profile is active, for local tests with a classpath repo:
         native:
           searchLocations: classpath:offline-repository/
