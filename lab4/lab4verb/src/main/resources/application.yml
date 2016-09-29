@@ -1,4 +1,3 @@
 ---
 server:
   port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
-words: ran,knew,had,saw,bought
