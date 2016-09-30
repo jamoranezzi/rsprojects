@@ -5,7 +5,7 @@ spring:
   profiles: sentence
   application:
     name: lab-4-sentence
-   cloud:
+  cloud:
        config:
          uri: http://localhost:8001
 
@@ -33,8 +33,8 @@ spring:
   application:
     name: lab-4-article
   cloud:
-      config:
-        uri: http://localhost:8001
+    config:
+      uri: http://localhost:8001
 
 ---
 spring:
@@ -42,8 +42,8 @@ spring:
   application:
     name: lab-4-adjective
   cloud:
-      config:
-        uri: http://localhost:8001
+    config:
+      uri: http://localhost:8001
 
 ---
 spring:
@@ -51,5 +51,5 @@ spring:
   application:
     name: lab-4-noun
   cloud:
-      config:
-        uri: http://localhost:8001
+    config:
+      uri: http://localhost:8001
