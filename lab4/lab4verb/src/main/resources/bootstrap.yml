@@ -1,7 +1,7 @@
 ---
 spring:
   profiles:
-    active: verb
+    active: verb # # Solamente por la prueba paara indicar el profile que se esta utilizando.
   application:
     name: lab-4-verb
   cloud:
