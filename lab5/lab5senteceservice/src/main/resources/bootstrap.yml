@@ -1,0 +1,8 @@
+---
+spring:
+  profiles: sentence
+  application:
+    name: lab-5-sentence
+  cloud:
+       config:
+         uri: http://localhost:8001
