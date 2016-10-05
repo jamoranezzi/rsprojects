@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class WordController {
 
     @Value("${words}") String words;
+    @Value("${spring.profiles}") String role;
 //    String words = "icicle,refrigerator,blizzard,snowball";
 
     @RequestMapping("/")

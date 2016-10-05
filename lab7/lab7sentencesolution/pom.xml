@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lab7</groupId>
-	<artifactId>lab-7-setence-service</artifactId>
+	<artifactId>lab-7-sentence-solution</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lab-7-setence-service</name>
-	<description>Lab 7 Sentence Service Hydrix</description>
+	<name>lab-7-sentence-solution</name>
+	<description>Lab 7 Sentence Service with Hydrix</description>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
@@ -48,6 +48,21 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
+		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.cloud</groupId>-->
+			<!--<artifactId>spring-cloud-starter-turbine-stream</artifactId>-->
+		<!--</dependency>-->
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
 		</dependency>
 
 		<dependency>
