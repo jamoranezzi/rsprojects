@@ -2,12 +2,15 @@ package com.lab8;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * Created by amorales on 10/10/16.
  */
 @RestController
+@ConfigurationProperties(prefix="wordConfig")
 public class LuckyWordController {
+
     String luckyWord;
     String preamble;
 
